@@ -1,0 +1,23 @@
+.kanji-entry.leccion-1 {
+    background-color: #FFD700; /* Color dorado */
+}
+
+.kanji-entry.leccion-2 {
+    background-color: #ADFF2F; /* Color verde */
+}
+
+.kanji-entry.leccion-3 {
+    background-color: #1E90FF; /* Color azul */
+}
+
+.kanji-entry.leccion-4 {
+    background-color: #FF4500; /* Color naranja */
+}
+
+.kanji-entry.leccion-5 {
+    background-color: #9400D3; /* Color violeta */
+}
+
+.kanji-entry.leccion-6 {
+    background-color: #FF1493; /* Color rosa */
+}

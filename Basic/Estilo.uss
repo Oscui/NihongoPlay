@@ -1,0 +1,39 @@
+.boton {
+    width: 55%;
+    padding-top: 10px;
+    padding-right: 12px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    margin-top: 5%;
+    margin-right: 4px;
+    margin-bottom: 2px;
+    margin-left: 4px;
+    -unity-font: url('project://database/Assets/Fonts/static/NovaRound-Regular.ttf?fileID=12800000&guid=4fa49eb71884fc44894a74174b1c091a&type=3#NovaRound-Regular');
+    -unity-font-definition: initial;
+    -unity-font-style: bold;
+    font-size: 20px;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.boton:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0);
+}
+
+.texto:hover {
+    color: rgb(149, 124, 124);
+}

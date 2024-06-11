@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Basic/EstiloAlfabetos.uss?fileID=7433441132597879392&amp;guid=2a676c3fd5b62564a9265bbbcd8266f8&amp;type=3#EstiloAlfabetos" />
+    <Style src="project://database/Assets/Basic/estiloskanjis.uss?fileID=7433441132597879392&amp;guid=7abb266dd553dfb4495dee8f73a02d3c&amp;type=3#estiloskanjis" />
+    <ui:VisualElement name="kanjientry" class="btnkanjis contkanji kanji-entry" style="margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px; height: 165px;">
+        <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Kanji" class="lblkanjis" style="align-items: auto; align-self: center; -unity-font: url(&apos;project://database/Assets/Fonts/NotoSansJP-VariableFont_wght.ttf?fileID=12800000&amp;guid=09314d00794b37642a5d778d08242f76&amp;type=3#NotoSansJP-VariableFont_wght&apos;);" />
+        <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Romaji" class="lblkanjis" style="align-self: center;" />
+        <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Significado" class="lblkanjis" style="align-self: center; justify-content: space-between;" />
+    </ui:VisualElement>
+</ui:UXML>
